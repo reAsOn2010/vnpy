@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1745868005,
+        "narHash": "sha256-hZScOyQphT4RUmSEJX+2OxjIlGgLwSd8iW1LNtAWIOs=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "330d0a4167924b43f31cc9406df363f71b768a02",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1745868005,
+        "narHash": "sha256-hZScOyQphT4RUmSEJX+2OxjIlGgLwSd8iW1LNtAWIOs=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "330d0a4167924b43f31cc9406df363f71b768a02",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "ta-lib-nix": "ta-lib-nix"
+      }
+    },
+    "ta-lib-nix": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1,
+        "narHash": "sha256-yktfPuNj0/tnbUP4tq7rxPhVEfIZDAPIraWf9Mz1uFM=",
+        "path": "../ta-lib",
+        "type": "path"
+      },
+      "original": {
+        "path": "../ta-lib",
+        "type": "path"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

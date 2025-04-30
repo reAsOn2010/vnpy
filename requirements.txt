@@ -1,0 +1,26 @@
+# modules
+vnpy_ctp
+vnpy_ctastrategy
+vnpy_ctabacktester
+vnpy_spreadtrading
+vnpy_optionmaster
+vnpy_portfoliostrategy
+vnpy_algotrading
+vnpy_scripttrader
+vnpy_paperaccount
+vnpy_chartwizard
+vnpy_portfoliomanager
+vnpy_rpcservice
+vnpy_datamanager
+vnpy_datarecorder
+vnpy_excelrtd
+vnpy_riskmanager
+vnpy_webtrader
+
+# db support 
+vnpy_sqlite
+vnpy_mysql
+
+# dep
+importlib-metadata
+
